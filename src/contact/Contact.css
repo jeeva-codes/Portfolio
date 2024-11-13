@@ -1,0 +1,127 @@
+.contact-container{
+    width: 60%;
+    height: auto;
+    margin: 80px 20% 30px 20%;
+    display: flex;
+    font-family: "fredoka",sans-serif;
+}
+.contact-links{
+    width: 40%;
+    padding: 10px;
+
+}
+.contact-links-title{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #6E07F3;
+    font-weight: 550;
+}
+.contact-links-icons ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+}
+.contact-links-icons ul a {
+ text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+.contact-links-icons li{
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: start;
+    margin-left: 50px;
+    color: rgb(49, 49, 49);
+ font-size: 1.3em;
+ font-weight: 600;
+ margin-bottom: 20px;
+}
+.contact-links p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.contact-form{
+    width: 60%;
+    height: auto;
+    background-color: rgb(231, 232, 232);
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.contact-input{
+    width: 50%;
+    height: 30px;
+    margin: 50px 25% 0 25%;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    outline: none;
+}
+.contact-form textarea{
+    height: 100px;
+    padding-top:20px;
+    font-size: 1.2em;
+}
+.submit-btn{
+     width: 30%;
+     height: 35px;
+     border-radius: 10px;
+     border: none;
+     font-size: 1.2em;
+     font-weight: 500;
+     margin: 30px 35% 30px 35%;
+     transition: 0.2s;
+     cursor: pointer;
+
+}
+.submit-btn:hover{
+    color: #fff;
+    background-color: #6E07F3;
+}
+.arrowicon{
+    margin-left: 10px;
+}
+/* animation */
+.contact-links{
+    transform: translateX(-100%);
+    animation: formani 1.3s ease-in-out forwards ;
+}
+.contact-form{
+    transform: translateX(100%);
+    animation: formani 1.3s ease-in-out forwards ;
+}
+@keyframes formani{
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+/* resposive design */
+@media (max-width:1250px){
+.contact-container{
+    width: 90%;
+    margin:80px 5% 30px 5% ;
+}   
+.contact-container{
+    display: block;
+}
+.contact-links{
+    width: 100%;
+}
+.contact-form{
+    width: 100%;
+}
+.contact-links-icons ul{
+    padding-left: 50px;
+    justify-content: space-between;
+}
+.contact-links-icons li{
+    margin-left: 0; 
+    width: 20%;
+}
+}
+

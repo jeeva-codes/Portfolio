@@ -1,0 +1,105 @@
+.skill-container{
+    width: 60%;
+    height: auto;
+    font-family: 'fredoka',sans-serif;
+    margin: 20px 20% 0 20%;
+    display: flex;
+    padding-top: 50px;
+    border: .3px solid #e1e1e1;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.skill-container-left{
+    width: 60%;
+    padding: 10px;
+}
+.skill-left-icon{
+    margin: 10px 40% 0 40%;
+    font-size: 5em;
+    font-weight:lighter;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #5be9b9;
+    color:#141c3a;
+}
+.skill-left-info h2{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 50px;
+    letter-spacing: 1.5px;
+}
+.skill-left-info p{
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.skill-container-right{
+    width: 40%;
+}
+.skillset1 h2,.skillset2 h2{
+ text-align: start;
+ color: #6E07F3;
+ font-weight: 500;
+ letter-spacing: 1.5px;
+ margin-top: 20px;
+ margin-left: 40px;
+
+}
+.skillset1 ul,.skillset2 ul{
+    list-style-type: none;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+.skillset1 li,.skillset2 li{
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#icons{
+    margin-right: 10px;
+    font-size: larger;
+}
+/* animation */
+.skill-container{
+    transform: scale(0,1);
+    animation: skillani 1s ease-out forwards ;
+}
+@keyframes skillani{
+    100%{
+    transform: scale(100%);
+
+    }
+}
+
+
+/* responsive design */
+@media (max-width:1150px) {
+.skillset1 h2,.skillset2 h2 {
+  margin-left: 20px;
+}
+
+.skill-container{
+    width: 80%;
+    margin:20px 10% 0 10% ;
+}   
+}
+@media (max-width:600px){
+.skill-container{
+    display: block;
+    width: 90%;
+    margin: 20px 5% 0 5%;
+
+}
+.skill-container-left{
+    width: 100%;
+}
+/* .skill-left-info h2{
+    text-align: start;
+} */
+.skill-container-right{
+    width: 100%;
+}
+}
