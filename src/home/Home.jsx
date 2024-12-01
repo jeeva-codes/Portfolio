@@ -18,11 +18,10 @@ function Home() {
      </div>
      <div className="home-bottom">
       <button className='resume-btn'>
-     <a href="vite-project\src\home\rb_60111.png" download  >download resume</a>
+     <a href="src\home\jeeva-resume.pdf" download  >download resume</a>
       </button>
      </div>
      </div>
-     
      </div>
     
     </>  )
