@@ -117,7 +117,7 @@
 }
 .pro-display{
     transform: scale(2,2);
-    animation: disani 1s linear forwards ;
+    animation: disani 0.7s linear forwards ;
 }
 @keyframes disani{
     0%{

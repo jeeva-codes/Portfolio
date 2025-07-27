@@ -65,7 +65,7 @@
 /* animation */
 .skill-container{
     transform: scale(0,1);
-    animation: skillani 1s ease-out forwards ;
+    animation: skillani 0.7s ease-out forwards ;
 }
 @keyframes skillani{
     100%{

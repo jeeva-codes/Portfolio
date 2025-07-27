@@ -88,7 +88,7 @@
 /* animation */
 .contact-links{
     transform: translateX(-100%);
-    animation: formani 1.3s ease-in-out forwards ;
+    animation: formani 1s ease-in-out forwards ;
 }
 .contact-form{
     transform: translateX(100%);
