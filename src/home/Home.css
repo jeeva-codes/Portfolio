@@ -11,6 +11,30 @@
     height: auto;
     text-align: center;
 }
+
+.img-container img{
+ 
+    border: 6px solid #0000;
+  border-radius: 50%;
+  background: linear-gradient(#fff) padding-box, linear-gradient(
+        var(--angle),
+        
+#16bffd,
+        #f04668
+      ) border-box;
+  animation: 5s rotate linear infinite;
+}
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
 .title{
     margin-bottom: 20px;
 }

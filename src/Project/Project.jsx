@@ -39,14 +39,6 @@ function Project() {
     content:'The EMI calculator, created using HTML, CSS, and JavaScript, incorporates a responsive design that enhances usability across devices, allowing for smooth user inputs, and is successfully deployed on GitHub Pages for easy access.'
 
   }
-  const info4={
-    title:"Todo List",
-    imgurl:todo,
-    demo:"https://jeeva-codes.github.io/todo-list/",
-    code:"https://github.com/jeeva-codes/todo-list",
-    tools:[{tl:'HTML'},{tl:'CSS'},{tl:'JavaScript'}],
-    content:'The to-do list application, built with HTML, CSS, and JavaScript, features a responsive design that accommodates various screen sizes, utilizes local storage to save tasks, and allows for easy user inputs, all while being deployed on GitHub Pages for convenient access.'
-  }
 
   return (
    <>
@@ -55,7 +47,6 @@ function Project() {
     <button onClick={()=>setdata(info1)} className="pro-nav-btn"> SIP Calculator</button>
     <button onClick={()=>setdata(info2)} className="pro-nav-btn"> Anime List</button>
    <button onClick={()=>setdata(info3)} className="pro-nav-btn"> EMI Calculator</button>
-   <button onClick={()=>setdata(info4)} className="pro-nav-btn"> ToDo List</button>
     </div>
     <div className="pro-display">
         <h2 className="pro-display-title" >{data.title}</h2>
