@@ -22,7 +22,7 @@
 #16bffd,
         #f04668
       ) border-box;
-  animation: 5s rotate linear infinite;
+  animation: 3s rotate linear infinite;
 }
 @keyframes rotate {
   to {
