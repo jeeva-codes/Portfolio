@@ -1,5 +1,5 @@
 import React from 'react'
-import rb from "./rb_60111.png"
+import profilepic from "./1754115403967.jpg"
 import './Home.css'
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
      <div className="container">
      <div className="main-container">
         <div className="img-container">
-                <img src={rb} alt="me"  width={'200px'} height={'200px'}/>
+                <img src={profilepic} alt="me"  width={'200px'} height={'200px'}/>
         </div>
      <div className="title">
         <h2>Hi i'm <span>Jeeva</span></h2>
