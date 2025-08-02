@@ -20,7 +20,7 @@ function Home() {
      </div>
      <div className="home-bottom">
       <button className='resume-btn'>
-     <a href="src\home\jeeva-resume.pdf" download  >download resume</a>
+     <a href="/jeeva-resume.pdf" download  >download resume</a>
       </button>
      </div>
      </div>
