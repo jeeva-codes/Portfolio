@@ -7,7 +7,9 @@ function Home() {
      <div className="container">
      <div className="main-container">
         <div className="img-container">
+         <picture>
                 <img src={profilepic} alt="me"  width={'200px'} height={'200px'}/>
+      </picture>
         </div>
      <div className="title">
         <h2>Hi i'm <span>Jeeva</span></h2>
