@@ -20,7 +20,7 @@ function Home() {
      </div>
      <div className="home-bottom">
       <button className='resume-btn'>
-     <a href="/asset/Jeeva-React_dev-Resume.pdf" download  >download resume</a>
+     <a href="/asset/Jeeva-Reactdev-Resume.pdf" download  >download resume</a>
       </button>
      </div>
      </div>
