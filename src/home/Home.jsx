@@ -13,10 +13,10 @@ function Home() {
         </div>
      <div className="title">
         <h2>Hi i'm <span>Jeeva</span></h2>
-        <h2><span>front</span>end Develope<span>r</span></h2>
+        <h2><span>React</span> Develope<span>r</span></h2>
      </div>
      <div className="objective">
-        <p className='objective-text'>A passionate frontend developer eager to create engaging web experiences</p>
+        <p className='objective-text'>A passionate React developer eager to create engaging web experiences</p>
      </div>
      <div className="home-bottom">
       <button className='resume-btn'>

@@ -16,7 +16,7 @@ function Skills() {
     <div className="skill-container-left">
       <CgWebsite className="skill-left-icon"/>
       <div className="skill-left-info">
-        <h2>Frontend Developer</h2>
+        <h2>React Developer</h2>
         <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
       </div>
     </div>
