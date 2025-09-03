@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 
 
@@ -33,7 +33,7 @@ function Skills() {
     <div className="skillset2">
      <h2>Dev Tools:</h2>
      <ul>
-      <li><FaBootstrap id='icons'/>Bootstrap</li>
+      <li><RiTailwindCssFill id='icons'/>Tailwind CSS</li>
       <li><FaGitAlt id='icons'/>Git & GitHub</li>
       <li></li>
      </ul>

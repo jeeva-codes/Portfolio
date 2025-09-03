@@ -1,29 +1,25 @@
 import React, { useState } from 'react'
-import sip from './sip.png'
-import emi from './emi.png'
-import todo from './todolist.png'
+import coffeeman from './coffeeman.png'
 import animelist from './animelist.png'
 import suvaiexpress from './suvaiexpress.png'
 import './Project.css'
 function Project() {
-    const [data,setdata]=useState({
-    title:"Anime List",
-    imgurl:animelist,
-    demo:"https://animelist-project.netlify.app/",
-    code:"https://github.com/jeeva-codes/AnimeList",
-    tools:[{tl:'React'}],
-    content:'I developed a professional-grade anime list project that leverages an API for dynamic data retrieval, incorporates responsive design principles for an optimal user experience, expertly handles user input, and utilizes React Router DOM for efficient navigation and routing.'
-  })
+    const [data,setdata]=useState({title:"Coffeeman",
+    imgurl:coffeeman,
+    demo:"https://coffeeman.netlify.app/",
+    code:"https://github.com/jeeva-codes/Coffeman",
+    tools:[{tl:'React'},{tl:'Mongodb'},{tl:'Express js'}],
+    content:"Developed Coffeeman, a responsive e-commerce web application showcasing coffee, tea, and cool drink products using React.js and Tailwind CSS.Implemented user authentication (register & login) with Express.js and MongoDB Atlas, ensuring secure data handling."})
  
   const info1={
-    title:"SIP Calculator",
-    imgurl:sip,
-    demo:"https://simple-sipcalculator.netlify.app/",
-    code:"https://github.com/jeeva-codes/SIP-Calculator",
-    tools:[{tl:'React'}],
-    content:'Built with React, the SIP calculator features a responsive design that adapts to various devices, allowing for easy user input and efficient calculations, and is deployed on Netlify for fast and reliable access.'
-  }
-  const info2={
+    title:"Coffeeman",
+    imgurl:coffeeman,
+    demo:"https://coffeeman.netlify.app/",
+    code:"https://github.com/jeeva-codes/Coffeman",
+    tools:[{tl:'React'},{tl:'Mongodb'},{tl:'Express js'}],
+    content:"Developed Coffeeman, a responsive e-commerce web application showcasing coffee, tea, and cool drink products using React.js and Tailwind CSS.Implemented user authentication (register & login) with Express.js and MongoDB Atlas, ensuring secure data handling."}
+  
+    const info2={
     title:"Anime List",
     imgurl:animelist,
     demo:"https://animelist-project.netlify.app/",
@@ -31,16 +27,7 @@ function Project() {
     tools:[{tl:'React'}],
     content:'I developed a professional-grade anime list project that leverages an API for dynamic data retrieval, incorporates responsive design principles for an optimal user experience, expertly handles user input, and utilizes React Router DOM for efficient navigation and routing.'
   }
-  const info3={
-    title:"EMI Calculator",
-    imgurl:emi,
-    demo:"https://jeeva-codes.github.io/EMI-Calculator/",
-    code:"https://github.com/jeeva-codes/EMI-Calculator",
-    tools:[{tl:'HTML'},{tl:'CSS'},{tl:'JavaScript'}],
-    content:'The EMI calculator, created using HTML, CSS, and JavaScript, incorporates a responsive design that enhances usability across devices, allowing for smooth user inputs, and is successfully deployed on GitHub Pages for easy access.'
-
-  }
-    const info4={
+    const info3={
     title:"Suvai Express",
     imgurl:suvaiexpress,
     demo:"https://suvaiexpress.netlify.app",
@@ -54,10 +41,9 @@ function Project() {
    <>
    <div className="pro-container">
     <div className="pro-nav">
+    <button onClick={()=>setdata(info1)} className="pro-nav-btn"> Coffeeman</button>
+    <button onClick={()=>setdata(info3)} className="pro-nav-btn"> Suvai Express</button>
     <button onClick={()=>setdata(info2)} className="pro-nav-btn"> Anime List</button>
-    <button onClick={()=>setdata(info4)} className="pro-nav-btn"> Suvai Express</button>
-    <button onClick={()=>setdata(info1)} className="pro-nav-btn"> SIP Calculator</button>
-   <button onClick={()=>setdata(info3)} className="pro-nav-btn"> EMI Calculator</button>
     </div>
     <div className="pro-display">
         <h2 className="pro-display-title" >{data.title}</h2>
